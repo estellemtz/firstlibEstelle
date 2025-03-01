@@ -1,11 +1,19 @@
 Package: firstlibEstelle
-Type: Package
-Title: What the Package Does (Title Case)
+Title: Outils d'analyse des données des élus
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(person("Estelle", "Martinez", email = "estellemartinez44@gmail.com", role = c("aut", "cre")))
+Description: Ce package fournit des fonctions pour analyser les données des élus municipaux.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 4.0.0)
+Imports:
+    dplyr,
+    ggplot2,
+    stringr,
+    testthat
+Suggests:
+    usethis,
+    devtools
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
